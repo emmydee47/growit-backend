@@ -1,0 +1,11 @@
+{
+    "name": "growit-2021",
+    "version": "18.10.0",
+    "description": "growit 2021",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "private": true,
+    "dependencies": {},
+    "engines": {
+        "node": ">=16"
+    }
+}

@@ -1,0 +1,66 @@
+<?php
+/**
+ * PHPMaker 2022 user level settings
+ */
+namespace PHPMaker2022\growit_2021;
+
+// User level info
+$USER_LEVELS = [["-2","Anonymous"]];
+// User level priv info
+$USER_LEVEL_PRIVS = [["{21861580-6154-4FBA-85B4-7D9A7F2283C0}suggestions","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}Sow List","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}post_view_counts","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}crop_recommendations","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}jobs","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}crops","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}comments","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}article_categories","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}articles","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}reminders","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}crop_tips","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}Harvest List","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}crop_steps","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}device_id_registrations","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}likes","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}follows","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}fcm_topic_subscriptions","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}crop_months","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}users","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}token_auths","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}crops_view","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}Plant List","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}journals","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}job_histories","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}posts","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}device_token_registrations","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}fcm_notification_messages","-2","0"],
+    ["{21861580-6154-4FBA-85B4-7D9A7F2283C0}post_bookmarks","-2","0"]];
+// User level table info
+$USER_LEVEL_TABLES = [["suggestions","suggestions","Suggestions",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","suggestionslist"],
+    ["Sow List","SowList","Sow List",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","sowlistlist"],
+    ["post_view_counts","post_view_counts","post view counts",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}",""],
+    ["crop_recommendations","crop_recommendations","Recommendations",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","croprecommendationslist"],
+    ["jobs","jobs","Jobs",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","jobslist"],
+    ["crops","crops","Crops",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","cropslist"],
+    ["comments","comments","comments",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}",""],
+    ["article_categories","article_categories","Article Categories",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","articlecategorieslist"],
+    ["articles","articles","Articles",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","articleslist"],
+    ["reminders","reminders","Reminders",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","reminderslist"],
+    ["crop_tips","crop_tips","Crop Tips",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","croptipslist"],
+    ["Harvest List","HarvestList","Harvest List",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","harvestlistlist"],
+    ["crop_steps","crop_steps","Crop Steps",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","cropstepslist"],
+    ["device_id_registrations","device_id_registrations","device id registrations",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}",""],
+    ["likes","likes","likes",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}",""],
+    ["follows","follows","follows",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","followslist"],
+    ["fcm_topic_subscriptions","fcm_topic_subscriptions","fcm topic subscriptions",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}",""],
+    ["crop_months","crop_months","Crop Months",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","cropmonthslist"],
+    ["users","users","users",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","userslist"],
+    ["token_auths","token_auths","token auths",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}",""],
+    ["crops_view","crops_view","crops view",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}",""],
+    ["Plant List","PlantList","Plant List",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","plantlistlist"],
+    ["journals","journals","journals",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}",""],
+    ["job_histories","job_histories","job histories",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","jobhistorieslist"],
+    ["posts","posts","Posts",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","postslist"],
+    ["device_token_registrations","device_token_registrations","device token registrations",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}",""],
+    ["fcm_notification_messages","fcm_notification_messages","Notifications",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}","fcmnotificationmessageslist"],
+    ["post_bookmarks","post_bookmarks","post bookmarks",true,"{21861580-6154-4FBA-85B4-7D9A7F2283C0}",""]];
